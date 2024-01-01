@@ -26,6 +26,7 @@
     "typecheck:web": "tsc --noEmit -p tsconfig.web.json --composite false"
   },
   "dependencies": {
+    "hideout-is-lava-plugin": "file:../echo-plugins/hideout-is-lava-plugin",
     "networth-plugin": "file:../echo-plugins/networth-plugin",
     "economy-plugin": "file:../echo-plugins/economy-plugin",
     "@electron-toolkit/preload": "^2.0.0",
